@@ -1,3 +1,11 @@
+# lpirfs 0.2.5.9000
+* The development version contains a faster implementation of the HP-filter. The function is called 'hp_filter_fast()'. 
+
+# lpirfs 0.2.5
+
+* Fixed bug [#50](https://github.com/AdaemmerP/lpirfs/issues/50) for computing the 
+confidence intervals with 2SLS in `lp_lin_iv()`.
+
 # lpirfs 0.2.4
 
 * Fixed bug [#48](https://github.com/AdaemmerP/lpirfs/issues/48) for computing the standard errors 
